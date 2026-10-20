@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Astroship</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white text-gray-800 font-sans">
+
+    <!-- Header / Navigation -->
+    <header class="max-w-7xl mx-auto px-4 py-6 flex items-center justify-between">
+        <!-- Logo -->
+        <a href="index.html" class="text-xl font-bold tracking-tight text-gray-900">
+            Astro<span class="text-base font-bold text-gray-500">ship</span>
+        </a>
+        
+        <!-- Navigation Links -->
+        <nav class="hidden md:flex items-center space-x-8 text-sm font-medium text-gray-600">
+            <a href="index.html" class="hover:text-black">Features</a>
+            <a href="pricing.html" class="hover:text-black">Pricing</a>
+            <a href="about.html" class="hover:text-black">About</a>
+            <a href="blog.html" class="hover:text-black">Blog</a>
+            <a href="contact.html" class="hover:text-black">Contact</a>
+        </nav>
+
+        <!-- Auth Buttons -->
+        <div class="flex items-center space-x-4">
+            <a href="#" class="text-sm font-medium text-gray-700 hover:text-black">Log in</a>
+            <a href="#" class="bg-black text-white text-sm font-medium px-4 py-2 rounded-xl hover:bg-gray-800 transition">Sign up</a>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="max-w-7xl mx-auto px-4 py-16 md:py-24 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+            <div class="space-y-6">
+                <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-gray-900 leading-tight">
+                    Marketing website done with Astro
+                </h1>
+                <p class="text-lg text-gray-600 leading-relaxed">
+                    Astroship is a starter template for startups, marketing websites & landing pages. Built with Astro.build and TailwindCSS. You can quickly create any website with this starter.
+                </p>
+                <div class="flex flex-wrap gap-4 pt-2">
+                   <a href="https://themewagon.com/themes/astroship" target="_blank" rel="noopener" class="rounded-sm text-center transition focus-visible:ring-2 ring-offset-2 ring-gray-200 px-5 py-2.5 bg-black text-white hover:bg-gray-800  border-2 border-transparent flex gap-1 items-center justify-center"> <svg width="1em" height="1em" class="text-white w-5 h-5" data-icon="bx:bxs-cloud-download">   <symbol id="ai:bx:bxs-cloud-download" viewBox="0 0 24 24"><path d="M18.944 11.112C18.507 7.67 15.56 5 12 5C9.244 5 6.85 6.61 5.757 9.149C3.609 9.792 2 11.82 2 14c0 2.657 2.089 4.815 4.708 4.971V19H17.99v-.003L18 19c2.206 0 4-1.794 4-4a4.008 4.008 0 0 0-3.056-3.888zM8 12h3V9h2v3h3l-4 5l-4-5z" fill="currentColor"></path></symbol><use href="#ai:bx:bxs-cloud-download"></use>  </svg>Download for Free
+                </a>
+                    <a href="https://github.com/themewagon/astroship" rel="noopener" target="_blank" class="rounded-sm text-center transition focus-visible:ring-2 ring-offset-2 ring-gray-200 px-5 py-2.5 bg-white border-2 border-black hover:bg-gray-100 text-black  flex gap-1 items-center justify-center"> <svg width="1em" height="1em" class="text-black w-4 h-4" data-icon="bx:bxl-github">   <symbol id="ai:bx:bxl-github" viewBox="0 0 24 24"><path fill-rule="evenodd" clip-rule="evenodd" d="M12.026 2c-5.509 0-9.974 4.465-9.974 9.974c0 4.406 2.857 8.145 6.821 9.465c.499.09.679-.217.679-.481c0-.237-.008-.865-.011-1.696c-2.775.602-3.361-1.338-3.361-1.338c-.452-1.152-1.107-1.459-1.107-1.459c-.905-.619.069-.605.069-.605c1.002.07 1.527 1.028 1.527 1.028c.89 1.524 2.336 1.084 2.902.829c.091-.645.351-1.085.635-1.334c-2.214-.251-4.542-1.107-4.542-4.93c0-1.087.389-1.979 1.024-2.675c-.101-.253-.446-1.268.099-2.64c0 0 .837-.269 2.742 1.021a9.582 9.582 0 0 1 2.496-.336a9.554 9.554 0 0 1 2.496.336c1.906-1.291 2.742-1.021 2.742-1.021c.545 1.372.203 2.387.099 2.64c.64.696 1.024 1.587 1.024 2.675c0 3.833-2.33 4.675-4.552 4.922c.355.308.675.916.675 1.846c0 1.334-.012 2.41-.012 2.737c0 .267.178.577.687.479C19.146 20.115 22 16.379 22 11.974C22 6.465 17.535 2 12.026 2z" fill="currentColor"></path></symbol><use href="#ai:bx:bxl-github"></use>  </svg>GitHub Repo
+                    </a>
+                </div>
+            </div>
+            <img src="heroimg.png" alt="Astronaut illustration">
+             
+        </section>
+
+       <!-- Features Section -->
+        <section class="max-w-7xl mx-auto px-4 py-20">
+            <div class="mt-16 md:mt-0">
+                 <h2 class="text-4xl lg:text-5xl font-bold lg:tracking-tight">
+                    Everything you need to start a website
+                </h2> 
+                <p class="text-lg mt-4 text-slate-600 pb-10">
+                    Astro comes batteries included. It takes the best parts of state-of-the-art tools and adds its own innovations.
+                </p> 
+            </div>
+
+            <!-- Features Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 ">
+                <!-- Feature 1: Bring Your Own Framework -->
+                <div class="flex gap-4 items-start">
+                    <div class="w-10 h-10 bg-black text-white rounded-full flex items-center justify-center shrink-0 mt-1">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"></path></svg>
+                    </div>
+                    <div>
+                        <h3 class="text-lg font-bold text-gray-900 mb-1">Bring Your Own Framework</h3>
+                        <p class="text-gray-500 text-sm leading-relaxed">Build your site using React, Svelte, Vue, Preact, web components, or just plain ol' HTML + JavaScript.</p>
+                    </div>
+                </div>
+
+                <!-- Feature 2: 100% Static HTML, No JS -->
+                <div class="flex gap-4 items-start">
+                    <div class="w-10 h-10 bg-black text-white rounded-full flex items-center justify-center shrink-0 mt-1">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"></path></svg>
+                    </div>
+                    <div>
+                        <h3 class="text-lg font-bold text-gray-900 mb-1">100% Static HTML, No JS</h3>
+                        <p class="text-gray-500 text-sm leading-relaxed">Astro renders your entire page to static HTML, removing all JavaScript from your final build by default.</p>
+                    </div>
+                </div>
+
+                <!-- Feature 3: On-Demand Components -->
+                <div class="flex gap-4 items-start">
+                    <div class="w-10 h-10 bg-black text-white rounded-full flex items-center justify-center shrink-0 mt-1">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4m0 5c0 2.21-3.582 4-8 4s-8-1.79-8-4"></path></svg>
+                    </div>
+                    <div>
+                        <h3 class="text-lg font-bold text-gray-900 mb-1">On-Demand Components</h3>
+                        <p class="text-gray-500 text-sm leading-relaxed">Need some JS? Astro can automatically hydrate interactive components when they become visible on the page.</p>
+                    </div>
+                </div>
+
+                <!-- Feature 4: Broad Integration -->
+                <div class="flex gap-4 items-start">
+                    <div class="w-10 h-10 bg-black text-white rounded-full flex items-center justify-center shrink-0 mt-1">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"></path></svg>
+                    </div>
+                    <div>
+                        <h3 class="text-lg font-bold text-gray-900 mb-1">Broad Integration</h3>
+                        <p class="text-gray-500 text-sm leading-relaxed">Astro supports TypeScript, Scoped CSS, CSS Modules, Sass, Tailwind, Markdown, MDX, and any other npm packages.</p>
+                    </div>
+                </div>
+
+                <!-- Feature 5: SEO Enabled -->
+                <div class="flex gap-4 items-start">
+                    <div class="w-10 h-10 bg-black text-white rounded-full flex items-center justify-center shrink-0 mt-1">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path></svg>
+                    </div>
+                    <div>
+                        <h3 class="text-lg font-bold text-gray-900 mb-1">SEO Enabled</h3>
+                        <p class="text-gray-500 text-sm leading-relaxed">Automatic sitemaps, RSS feeds, pagination and collections take the pain out of SEO and syndication, it just works!</p>
+                    </div>
+                </div>
+
+                <!-- Feature 6: Community -->
+                <div class="flex gap-4 items-start">
+                    <div class="w-10 h-10 bg-black text-white rounded-full flex items-center justify-center shrink-0 mt-1">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+                    </div>
+                    <div>
+                        <h3 class="text-lg font-bold text-gray-900 mb-1">Community</h3>
+                        <p class="text-gray-500 text-sm leading-relaxed">Astro is an open source project powered by hundreds of contributors making thousands of individual contributions.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Tech Stack Section -->
+        <section class="max-w-7xl mx-auto px-4 py-16">
+    <p class="text-center text-sm font-medium text-gray-500 uppercase tracking-wider mb-10">Works with your technologies</p>
+    <div class="flex flex-wrap justify-center items-center gap-12 md:gap-20">
+        <!-- React -->
+        <div class="flex items-center justify-center w-10 h-10 hover:scale-110 transition">
+            <img src="react.png" alt="React" class="w-8 h-8 object-contain">
+        </div>
+        <!-- Svelte -->
+        <div class="flex items-center justify-center w-10 h-10 hover:scale-110 transition">
+            <img src="svelte.png" alt="Svelte" class="w-8 h-8 object-contain">
+        </div>
+        <!-- Astro -->
+        <div class="flex items-center justify-center w-10 h-10 hover:scale-110 transition">
+            <img src="astro.png" alt="Astro" class="w-8 h-8 object-contain">
+        </div>
+        <!-- Tailwind -->
+        <div class="flex items-center justify-center w-10 h-10 hover:scale-110 transition">
+            <img src="tailwind.png" alt="Tailwind CSS" class="w-8 h-8 object-contain">
+        </div>
+        <!-- Vue -->
+        <div class="flex items-center justify-center w-10 h-10 hover:scale-110 transition">
+            <img src="vue.png" alt="Vue" class="w-8 h-8 object-contain">
+        </div>
+        <!-- Alpine -->
+        <div class="flex items-center justify-center w-10 h-10 hover:scale-110 transition">
+            <img src="alpine.png" alt="Alpine" class="w-8 h-8 object-contain">
+        </div>
+    </div>
+</section>
+
+        <!-- CTA Section -->
+        <section class="max-w-6xl mx-auto px-4 py-16">
+            <div class="bg-black text-white rounded-3xl p-10 md:p-16 text-center space-y-6 shadow-2xl">
+                <h2 class="text-3xl md:text-5xl font-bold tracking-tight">Build faster websites.</h2>
+                <p class="text-gray-400 max-w-xl mx-auto text-lg leading-relaxed">
+                    Pull content from anywhere and serve it fast with Astro's next-gen island architecture.
+                </p>
+                <div>
+                    <a href="pricing.html" class="inline-block bg-white text-black font-medium px-8 py-3.5 rounded-xl hover:bg-gray-100 transition shadow-md">
+                        Get Started
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="border-t border-gray-100 py-8 text-center text-sm text-gray-500 space-y-2 mt-20">
+        <p>Copyright © 2026 Astroship. All rights reserved.</p>
+        <p>Made by Web3Templates - Distributed by Themewagon</p>
+    </footer>
+
+</body>
+</html>
