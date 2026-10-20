@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Astroship</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white text-gray-800 font-sans">
+
+    <!-- Header / Navigation -->
+     <header class="max-w-7xl mx-auto px-4 py-6 flex items-center justify-between">
+        <a href="index.html" class="text-xl font-bold tracking-tight text-gray-900">Astro<span class="text-base font-normal text-gray-500">ship</span></a>
+       
+        
+        <nav class="hidden md:flex items-center space-x-8 text-sm font-medium text-gray-600">
+            <a href="index.html" class="hover:text-black">Features</a>
+            <a href="pricing.html" class="hover:text-black">Pricing</a>
+            <a href="about.html" class="hover:text-black">About</a>
+            <a href="blog.html" class="hover:text-black">Blog</a>
+            <a href="contact.html" class="hover:text-black">Contact</a>
+        </nav>
+
+        <div class="flex items-center space-x-4">
+            <a href="#" class="text-sm font-medium text-gray-700 hover:text-black">Log in</a>
+            <a href="#" class="bg-black text-white text-sm font-medium px-4 py-2 rounded-xl hover:bg-gray-800 transition">Sign up</a>
+        </div>
+    </header>
+
+    <main class="max-w-4xl mx-auto px-4 py-16 md:py-24">
+        <!-- Section Header -->
+        <div class="text-center space-y-4 mb-16">
+            <h1 class="text-4xl md:text-5xl font-bold tracking-tight text-gray-900">About</h1>
+            <p class="text-lg text-gray-600">We are a small passionate team.</p>
+        </div>
+
+        <!-- Team Intro -->
+        <div class="space-y-4 mb-16">
+            <h2 class="text-2xl md:text-3xl font-bold text-gray-900">Empowering the world with Astro.</h2>
+            <p class="text-gray-600 leading-relaxed text-base md:text-lg">
+                We're a multi-cultural team from around the world! We come from diverse backgrounds, bringing different personalities, experiences and skills to the job. This is what makes our team so special.
+            </p>
+        </div>
+<!-- Team Members Grid (الصورة هي اللي بتكبر جوه الإطار زي الفيديو) -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <!-- Member 1 -->
+            <div class="space-y-4 text-center">
+                <div class="w-full aspect-square bg-gray-100 rounded-2xl overflow-hidden shadow-sm flex items-center justify-center border border-gray-100">
+                    <img src="p1.png" alt="Janette Lynch" class="w-full h-full object-cover transition duration-500 ease-in-out hover:scale-105">
+                </div>
+                <div>
+                    <h3 class="text-lg font-bold text-gray-900">Janette Lynch</h3>
+                    <p class="text-sm text-gray-500 mt-0.5">Senior Director</p>
+                </div>
+            </div>
+
+            <!-- Member 2 -->
+            <div class="space-y-4 text-center">
+                <div class="w-full aspect-square bg-gray-100 rounded-2xl overflow-hidden shadow-sm flex items-center justify-center border border-gray-100">
+                    <img src="p2.png" alt="Marcell Ziemann" class="w-full h-full object-cover transition duration-500 ease-in-out hover:scale-105">
+                </div>
+                <div>
+                    <h3 class="text-lg font-bold text-gray-900">Marcell Ziemann</h3>
+                    <p class="text-sm text-gray-500 mt-0.5">Principal Strategist</p>
+                </div>
+            </div>
+
+            <!-- Member 3 -->
+            <div class="space-y-4 text-center">
+                <div class="w-full aspect-square bg-gray-100 rounded-2xl overflow-hidden shadow-sm flex items-center justify-center border border-gray-100">
+                    <img src="p3.jpg" alt="Robert Palmer" class="w-full h-full object-cover transition duration-500 ease-in-out hover:scale-105">
+                </div>
+                <div>
+                    <h3 class="text-lg font-bold text-gray-900">Robert Palmer</h3>
+                    <p class="text-sm text-gray-500 mt-0.5">Marketing Engineer</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="border-t border-gray-100 py-8 text-center text-sm text-gray-500 space-y-2 mt-20">
+        <p>Copyright © 2026 Astroship. All rights reserved.</p>
+        <p>Made by Web3Templates - Distributed by Themewagon</p>
+    </footer>
+
+</body>
+</html>
